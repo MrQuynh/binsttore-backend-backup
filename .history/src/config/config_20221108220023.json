@@ -1,0 +1,32 @@
+{
+  "development": {
+    "username": "epiz_32954430",
+    "password": "wyBlkctaWfgm4",
+    "database": "epiz_32954430_binstore",
+    "host": "sql112.epizy.com",
+    "dialect": "pos",
+    "logging": false,
+    "query":{"raw":true},
+    "dialectOptions":{
+      "ssl":{
+        "require":true,
+        "rejectUnauthorized":false
+      }
+    },
+    "timezone":"+07:00"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}

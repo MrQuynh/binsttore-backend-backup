@@ -1,0 +1,33 @@
+{
+  "development": {
+    "username": "sql12552585",
+    "password": "lNI15znyhd",
+    "database": "sql12552585",
+    "host": "sql12.freesqldatabase.com",
+    "dialect": "mysql",
+    "logging": false,
+    "query":{"raw":true},
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    },
+    
+    "timezone":"+07:00"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}

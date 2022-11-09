@@ -6,8 +6,8 @@ const sendSimpleEmail = async (dataSend) => {
     port: 587,
     secure: false, // true for 465, false for other ports
     auth: {
-      user: "tranong600@gmail.com", // generated ethereal user
-      pass: "ippnqyhzekcruebf", // generated ethereal password
+      user: process.env.EMAIL_APP, // generated ethereal user
+      pass: process.env.EMAIL_APP_PASSWORD, // generated ethereal password
     },
   });
 
